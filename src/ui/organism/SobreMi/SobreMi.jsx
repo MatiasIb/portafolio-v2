@@ -6,12 +6,14 @@ export const SobreMi = () => {
         <div className="SobreMi-Text">
         <h3>Sobre mí</h3>
         <p>
-          Analista Programador de Inacap Valparaiso con experiencia en
-          desarrollo de software tanto en front end, back end y mobile. Tengo
-          buena capacidad de trabajo en equipo, autodidacta y una buena
-          capacidad de analisis. Al trabajar siempre busco la mejora continua,
-          con orientacion hacia las buenas practicas y aprendisaje continuo. Me
-          encanta tomar nuevos desafíos y aprender nuevas tecnologías.
+        Soy Analista Programador graduado de Inacap Valparaíso cuento con experiencia en el desarrollo de software en los ámbitos de front-end, back-end y mobile.
+        Me destaco por mi habilidad para trabajar en equipo, mi capacidad autodidacta y un sólido enfoque en el análisis.
+        En mi trayectoria laboral, siempre busco la mejora continua, aplicando buenas prácticas y manteniéndome en constante aprendizaje.
+        Disfruto asumir nuevos desafíos y adquirir conocimientos en nuevas tecnologías, lo cual considero fundamental para mi crecimiento profesional.
+        <br/>
+        <strong>
+        Si necesitas más detalles o información adicional, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+        </strong>
         </p>
         <button>
           Descargar CV
