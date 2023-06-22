@@ -7,9 +7,9 @@ export const NavBar = () => {
     <div className='navBar'>
         <h1>Matias Ibañez</h1>
         <ul className='itemNav'>
-            <li>Home</li>
-            <li>Skills</li>
-            <li>Projects</li>
+            <li> <button >Inicio</button> </li>
+            <li> <button >Tecnologias</button> </li>
+            <li> <button >Proyectos</button> </li>
         </ul>
     </div>
   )

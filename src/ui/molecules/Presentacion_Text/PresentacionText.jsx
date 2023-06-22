@@ -1,9 +1,9 @@
 
 
 
-import './presentacion_text.css'
+import './PresentacionText.css'
 
-export const Presentacion_text = () => {
+export const PresentacionText = () => {
   return (
     <div className='presentacion_text'>
         <h3>Hola bienvenidos a mi portafolio</h3>

@@ -1,15 +1,15 @@
 
-import { Presentacion_text } from '../../molecules/Presentacion_Text/Presentacion_text'
-import fotoPresentacion from '../../../assets/foto-presentacion.gif'
-import fotoMouse from '../../../assets/mouse_gif.gif'
+import { PresentacionText } from '../../molecules/Presentacion_Text/PresentacionText'
+import fotoPresentacion from '../../../assets/fotoPresentacion.gif'
+import fotoMouse from '../../../assets/mouseGif.gif'
 
-import './presentacion.css'
+import './Presentacion.css'
 
 export const Presentacion = () => {
   return (
     <>
     <div className='presentacion-box'>
-        <Presentacion_text />
+        <PresentacionText />
         <div className='box-image'>
             <img src={fotoPresentacion}/>
         </div>

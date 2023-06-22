@@ -20,6 +20,28 @@
     
 }
 
+.itemNav button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    padding: 0 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemNav button:hover{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+
 .itemNav li {
     list-style: none;
 }
