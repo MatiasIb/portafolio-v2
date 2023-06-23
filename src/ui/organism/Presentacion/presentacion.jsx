@@ -3,7 +3,7 @@ import { PresentacionText } from '../../molecules/PresentacionText/PresentacionT
 import fotoPresentacion from '../../../assets/fotoPresentacion.gif'
 import fotoMouse from '../../../assets/mouseGif.gif'
 
-import './Presentacion.css'
+import './presentacion.css'
 
 export const Presentacion = () => {
   return (
