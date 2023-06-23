@@ -11,11 +11,11 @@ export const Presentacion = () => {
     <div className='presentacion-box'>
         <PresentacionText />
         <div className='box-image'>
-            <img src={fotoPresentacion}/>
+            <img src={fotoPresentacion} alt='fotoPresentacion'/>
         </div>
     </div>
     <div className='transition-box'>
-          <img src={fotoMouse}/>
+          <img src={fotoMouse} alt='fotoMouse'/>
     </div>
     
     </>
