@@ -59,7 +59,7 @@ export const NavBar = () => {
       <div className="line"></div>
     </div>)}
       </div>
-      {menu ? (
+      {open ? (
             <div className="burgerMenu" style={{transform: `translateX(${open ? '0' : '100vw'})`, transition: `transform 0.3s` }} >
         <div className="burger" >
           <div className="arrows">
