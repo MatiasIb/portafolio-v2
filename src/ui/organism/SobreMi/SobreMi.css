@@ -21,6 +21,7 @@ h2{
 }
 .SobreMi-Text p{
     text-align: center;
+    justify-content: center;
 }
 
 .SobreMi-Img{
@@ -56,6 +57,8 @@ h2{
         width: 90%;
         text-align: center;
         margin-bottom: 30px;
+        padding-left: 0px;
+        margin-left: 0px;
     }
 
     .SobreMi-Img{
