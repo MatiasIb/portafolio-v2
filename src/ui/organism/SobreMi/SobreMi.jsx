@@ -1,6 +1,17 @@
 import "./SobreMi.css";
 
+import curriculum from "../../../assets/curriculum.pdf";
+
 export const SobreMi = () => {
+
+
+  const downloadFile = () => {
+    const link = document.createElement("a");
+    link.href = curriculum;
+    link.download = "curriculum.pdf";
+    link.click();
+  }
+
   return (
     <div className="SobreMi-box">
         <div className="SobreMi-Text">
@@ -15,9 +26,10 @@ export const SobreMi = () => {
         Si necesitas más detalles o información adicional, no dudes en preguntar. ¡Estoy aquí para ayudarte!
         </strong>
         </p>
-        <button>
-          Descargar CV
+        <button onClick={ downloadFile }>
+        Descargar CV
         </button>
+
       </div>
       <div className="SobreMi-Img">
         <img src="https://img.freepik.com/vector-premium/personaje-estilo-pop-art-perfil-hombre-enojado_18591-69658.jpg" alt="" />
