@@ -21,6 +21,9 @@ export const NavBar = () => {
       }
     };
 
+    handleResize();
+
+
     // Agrega un event listener para detectar cambios en el tamaño de la ventana
     window.addEventListener('resize', handleResize);
 
