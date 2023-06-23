@@ -63,16 +63,23 @@ export const NavBar = () => {
             <div className="burgerMenu" style={{transform: `translateX(${open ? '0' : '100vw'})`, transition: `transform 0.3s` }} >
         <div className="burger" >
           <div className="arrows">
-            <p id="arrow">➡️</p>
-            <p id="arrow">➡️</p>
-            <p id="arrow">➡️</p>
+          <div className="row">
+          <p id="arrow">➡️</p>
+            <button>Inicio</button>
           </div>
 
-          <div className="items">
-            <button>Inicio</button>
-
+          <div className="row">
+          <p id="arrow">➡️</p>
             <button>Tecnologias</button>
+          </div>
+
+          <div className="row">
+          <p id="arrow">➡️</p>
             <button>Proyectos</button>
+          </div>
+
+          
+          
           </div>
         </div>
       </div>
