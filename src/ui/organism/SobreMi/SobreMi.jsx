@@ -15,7 +15,7 @@ export const SobreMi = () => {
   return (
     <div className="SobreMi-box">
         <div className="SobreMi-Text">
-        <h3>Sobre mí</h3>
+        <h2>Sobre mí</h2>
         <p>
         Soy Analista Programador graduado de Inacap Valparaíso cuento con experiencia en el desarrollo de software en los ámbitos de front-end, back-end y mobile.
         Me destaco por mi habilidad para trabajar en equipo, mi capacidad autodidacta y un sólido enfoque en el análisis.
