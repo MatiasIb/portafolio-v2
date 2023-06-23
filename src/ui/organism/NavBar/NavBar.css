@@ -1,4 +1,6 @@
 
+
+
 .navBar{
     display: flex;
     justify-content: space-between;
@@ -41,10 +43,94 @@
     background-color: #f2f2f2;
 }
 
-
 .itemNav li {
     list-style: none;
+    padding: 0 20px;
+    border-right: 1px solid black;
 }
+
+
+/*Menu Hamburguesa*/
+/*Icono hamburguesa*/
+.hamburger-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .hamburger-icon.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(12.5px, 6px);
+  }
+  
+  .hamburger-icon.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-icon.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(12.5px, -6px);
+  }
+  /*Icono hamburguesa*/
+.burgerMenu{
+    display: flex;
+    background-color: white;
+
+    height: 120px;
+    width: 200px;
+    margin-left: auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+#arrow {
+    height: 21px;
+    width: 30%;
+    padding-left: 10px;
+}
+
+.burger{
+    width: 100%;
+    display: flex;
+
+}
+.burger .items{
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding-right: 10px;
+    align-items: flex-end;
+}
+.items button {
+    width: 70%;
+    margin-bottom: 13px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+.items button:active{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+/*Menu Hamburguesa*/
+
+
+
 
 @media screen and (max-width: 568px) {
     .navBar h1 {
