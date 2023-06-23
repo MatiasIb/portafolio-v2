@@ -14,7 +14,7 @@ export const NavBar = () => {
  
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 800) {
+      if (window.innerWidth <= 850) {
         setMenu(true);
       } else {
         setMenu(false);

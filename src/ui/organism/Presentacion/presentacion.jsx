@@ -1,5 +1,5 @@
 
-import { PresentacionText } from '../../molecules/Presentacion_Text/PresentacionText'
+import { PresentacionText } from '../../molecules/PresentacionText/PresentacionText'
 import fotoPresentacion from '../../../assets/fotoPresentacion.gif'
 import fotoMouse from '../../../assets/mouseGif.gif'
 
